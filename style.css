@@ -1,0 +1,48 @@
+
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: #ffc000;
+    border-radius: 0 0 0.5rem 0;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.header h1{
+    text-align: center; 
+}
+
+.input{
+    display: block;
+    margin: auto;
+    min-width: 70%;
+    height: 30vh;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    height: 10vh;
+    background-color: #ffc000;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+p {
+    text-align: center;
+}
+
+.footer{
+    background-color: #ffc000;
+    border-radius: 0 0 0.5rem 0;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.footer h1{
+    text-align: center; 
+}
