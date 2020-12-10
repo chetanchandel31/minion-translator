@@ -10,10 +10,13 @@
     <header class='header'>
         <h1>Banana talk</h1>
     </header>
-    <textarea class='input' placeholder="Put your message here which you want to convert to banana language."></textarea>
-    <button class='btn'>Translate to banana</button>
+    <textarea class='input' id='input' placeholder="Put your message here which you want to convert to banana language."></textarea>
+    <div class='container-btn'>
+        <button class='btn' id='btn'>Translate to banana</button>
+        <button class='btn' id='btn-clear'>clear</button>
+    </div>
     <p>Translated text appears below.</p>
-    <textarea class='input' disabled></textarea>
+    <textarea class='input' id='output' disabled></textarea>
     <script src='./index.js'></script>
     <footer class='footer'>
         <h1>about</h1>

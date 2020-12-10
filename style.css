@@ -9,9 +9,9 @@ body{
 
 .header{
     background-color: #ffc000;
-    border-radius: 0 0 0.5rem 0;
+    border-radius: 0 0 0.5rem 0.5rem;
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 0.2rem;
 }
 
 .header h1{
@@ -21,21 +21,35 @@ body{
 .input{
     display: block;
     margin: auto;
-    min-width: 70%;
+    min-width: 80%;
     height: 30vh;
     resize: none;
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.container-btn {
+    text-align: center;
 }
 
 .btn {
-    display: block;
-    margin: auto;
+    /* display: block;
+    margin: auto; */
     height: 10vh;
     background-color: #ffc000;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     border: none;
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
     font-family: 'East Sea Dokdo', cursive;
     font-size: 1.5rem;
+    box-shadow: 3px 3px 2px 2px #888888;
+}
+
+.btn:active{
+    box-shadow: none;
 }
 
 p {
@@ -44,7 +58,7 @@ p {
 
 .footer{
     background-color: #ffc000;
-    border-radius: 0 0 0.5rem 0;
+    border-radius: 0.5rem 0.5rem 0 0;
     margin-top: 2rem;
     padding: 1rem;
 }
